@@ -1,0 +1,305 @@
+:root {
+    --bg-main: #003149;
+    --text-light: #fff;
+    --text-dark: #000;
+    
+    --color-highlight: #ad915f; 
+    --color-highlight-bold: #b38637;
+    --filter-svg: hue-rotate(32deg) saturate(50%);
+}
+
+.custom_fs {
+    font-size: 55px !important;
+}
+
+.max-width-70 {
+    max-width: 70%;
+}
+
+.bg_item_custom {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.bg_item_custom h5 {
+    color: var(--text-light);
+}
+
+
+.max_height_570 {
+    max-height: 570px;
+}
+
+.btn-five:hover, .btn-five:focus {
+    background: var(--color-highlight);
+}
+
+.block-feature-seven .rating i {
+    color: var(--color-highlight);
+}
+
+.highlight_svg {
+    filter: var(--filter-svg);
+}
+
+.scroll-top {
+    background: var(--color-highlight);
+}
+
+.title-one .upper-title.color {
+    color: var(--color-highlight);
+}
+
+.title-one h2.fs-lg .color {
+    color: var(--color-highlight);
+}
+
+.feedback-block-three blockquote span {
+    color: var(--color-highlight);
+}
+
+.feedback-section-three .feedback-bg-wrapper:before {
+    background: var(--color-highlight);
+}
+
+.feedback-section-three .feedback-bg-wrapper .icon {
+    background: var(--color-highlight);
+}
+
+.btn-nine, .btn-nine {
+    background:  var(--color-highlight);
+    color: var(--text-light);
+}
+
+.btn-nine:hover, .btn-nine:focus {
+    background:  var(--color-highlight-bold);
+    color: #fff;
+}
+
+.img_logo {
+    max-width: 180px;
+}
+
+.text-highlight {
+    color: var(--color-highlight);
+}
+
+.btn-seven {
+    background:  var(--color-highlight);
+    border-color: var(--color-highlight);
+    color: var(--text-light);
+}
+
+.btn-seven:hover, .btn-seven:focus {
+    background:  var(--color-highlight-bold);
+    border-color: var(--color-highlight-bold);
+    color: var(--text-light);
+}
+
+.hero-banner-two .video-icon span {
+    color: var(--color-highlight);
+    font-weight: 600;
+}
+
+.color-light {
+    color: var(--text-light);
+}
+
+.hero-banner-two .hero-heading {
+    color: var(--text-light);
+    font-size: 90px;
+}
+
+.theme-main-menu .gap-one {
+    padding: 12px 40px;
+}
+
+.mr-0 {
+    margin-right: 0px !important;
+}
+
+.hero-banner-two {
+    background-image: linear-gradient(rgba(39,51,73,.75),rgba(39,51,73,.75)),linear-gradient(rgba(0,0,0,-0.75),rgba(0,0,0,-0.75)),url("https://assets-global.website-files.com/62f19d90c1efa2d92e00ce2a/64edbc9d4a09d780cbb586e1_FH0A7691%20copy.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* .hero-banner-two {
+    background: rgba(0, 0, 0, .5);
+    background-image: url("https://assets-global.website-files.com/62f19d90c1efa2d92e00ce2a/64edbc9d4a09d780cbb586e1_FH0A7691%20copy.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.bg_opacity {
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+} */
+
+
+.theme-main-menu.menu-overlay {
+    background: var(--bg-main);
+}
+
+.theme-main-menu.fixed .gap-one {
+    background: var(--bg-main);
+}
+
+.theme-main-menu .nav-item .nav-link {
+    color: var(--text-light);
+}
+
+.theme-main-menu .nav-item:hover .nav-link {
+    color: var(--color-highlight);
+}
+
+.theme-main-menu .login-btn-one a {
+    color: var(--text-light);
+}
+
+
+.theme-main-menu .login-btn-one a:hover {
+    color: var(--color-highlight);
+}
+
+
+.btn-two {
+    border: 1px solid var(--color-highlight);
+    background:  var(--color-highlight) !important;
+}
+
+.btn-two:hover {
+    border: 1px solid var(--color-highlight);
+    background:  var(--color-highlight-bold) !important;
+}
+
+
+.theme-main-menu .navbar-toggler {
+    background:  var(--color-highlight) !important;
+}
+
+.feedback-block-two blockquote {
+    font-size: 35px;
+}
+
+.counter-block-two .main-count {
+    color: var(--color-highlight);
+}
+
+.feedback-block-two blockquote span {
+    color: var(--color-highlight);
+}
+
+.hero-banner-two .video-icon:hover i, .hero-banner-two .video-icon:focus i {
+    background: var(--color-highlight);
+    color: var(--text-light);
+}
+
+.slick-dots .slick-active button {
+    background:  var(--color-highlight);
+}
+
+.title-one h2.fs-xl {
+    font-size: 65px;
+    line-height: 1.06em;
+}
+
+.fancy-banner-five {
+    background: url("https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.bg-main {
+    background: var(--bg-main)
+}
+
+.img_sidebar_logo {
+    height: 50px;
+    width: auto;
+    object-fit: content;
+}
+
+.logo_mobile_custom {
+    margin: 0 !important;
+    padding: 35px 0;
+}
+
+.logo_mobile_custom a {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone_mobile a {
+    user-select: none;
+    color: var(--color-highlight)  !important;
+    display: none;
+}
+
+@media (max-width: 575px) {
+    .feedback-block-two blockquote {
+        font-size: 25px;
+        line-height: 1.3em;
+    }
+
+    .theme-main-menu .login-btn-one a {
+        display: none;
+    }
+    
+    .phone_mobile a {
+        display: block;
+    }
+
+    .theme-main-menu .gap-one {
+        padding: 12px;
+    }
+
+    .max-width-70 {
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .navbar .navbar-nav .nav-link {
+        color: var(--text-dark);
+    }
+
+    .img_logo {
+        max-width: 150px;
+    }
+
+    .title-one h2.fs-xl {
+        font-size: 40px;
+        line-height: 1.2em;
+    }
+
+    .navbar-collapse {
+        padding-top: 0;
+    }
+
+    .hero-banner-two .hero-heading, .hero-banner-three .hero-heading {
+        font-size: 45px !important;
+        line-height: 1.15em;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .col-xxl-9 {
+        flex: 0 0 auto;
+        width: 60%;
+    }
+}
