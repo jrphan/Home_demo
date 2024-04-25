@@ -275,6 +275,8 @@
 
 .dentist_img_custom {
     width: 100% !important;
+    max-width: 60% !important;
+    left: -100px !important;
 }
 
 @media (max-width: 575px) {
