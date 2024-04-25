@@ -8,6 +8,22 @@
     --filter-svg: hue-rotate(32deg) saturate(50%);
 }
 
+.theme-main-menu .dashboard-menu .nav-link::after {
+    filter: var(--filter-svg);
+}
+
+.font-garamond.custom_fs {
+    color: var(--text-light);
+}
+
+.feedback-section-two {
+    background: var(--bg-main);
+}
+
+.fancy-banner-four {
+    background: var(--bg-main);
+}
+
 .custom_fs {
     font-size: 55px !important;
 }
@@ -118,7 +134,7 @@
 }
 
 .hero-banner-two {
-    background-image: linear-gradient(rgba(39,51,73,.75),rgba(39,51,73,.75)),linear-gradient(rgba(0,0,0,-0.75),rgba(0,0,0,-0.75)),url("https://assets-global.website-files.com/62f19d90c1efa2d92e00ce2a/64edbc9d4a09d780cbb586e1_FH0A7691%20copy.webp");
+    background-image: url("https://www.eaglecreekdental.ca/wp-content/uploads/2021/04/slider1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -269,7 +285,10 @@
     .max-width-70 {
         max-width: 100%;
     }
-    
+
+    .hero-banner-two {
+        height: 80vh;
+    }
 }
 
 @media screen and (max-width: 991px) {
