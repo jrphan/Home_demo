@@ -8,8 +8,16 @@
     --filter-svg: hue-rotate(32deg) saturate(50%);
 }
 
+.footer-one.dark-bg .footer-intro .email {
+    font-size: 25px;
+}
+
 .theme-main-menu .dashboard-menu .nav-link::after {
     filter: var(--filter-svg);
+}
+
+.feedback-section-three {
+    background: var(--bg-main);
 }
 
 .font-garamond.custom_fs {
@@ -264,7 +272,17 @@
     display: none;
 }
 
+
+.dentist_img_custom {
+    width: 100% !important;
+}
+
 @media (max-width: 575px) {
+
+    .dentist_img_custom {
+        display: none;
+    }
+
     .feedback-block-two blockquote {
         font-size: 25px;
         line-height: 1.3em;
