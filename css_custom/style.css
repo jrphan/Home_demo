@@ -307,7 +307,7 @@
 
 @media (max-width: 575px) {
     .dentist_img_custom {
-        display: none;
+        display: none !important;
     }
 
     .feedback-block-two blockquote {
@@ -344,7 +344,7 @@
     }
 
     .dentist_img_custom {
-        display: none;
+        display: none !important;
     }
 
     .navbar .navbar-nav .nav-link {
