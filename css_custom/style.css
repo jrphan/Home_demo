@@ -306,6 +306,10 @@
 }
 
 @media (max-width: 575px) {
+    .dentist_img_custom {
+        display: none;
+    }
+
     .feedback-block-two blockquote {
         font-size: 25px;
         line-height: 1.3em;
