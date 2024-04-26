@@ -51,6 +51,8 @@
 
 .max_height_570 {
     max-height: 570px;
+    height: 570px;
+    object-fit: cover;
 }
 
 .btn-five:hover, .btn-five:focus {
@@ -177,6 +179,7 @@
 
 .theme-main-menu.fixed .gap-one {
     background: var(--bg-main);
+    border-bottom: 2px solid var(--color-highlight)
 }
 
 .theme-main-menu .nav-item .nav-link {
@@ -307,7 +310,8 @@
     }
 
     .hero-banner-two {
-        height: 80vh;
+        height: 90vh;
+        min-height: 800px;
     }
 }
 
