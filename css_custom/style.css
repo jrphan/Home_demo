@@ -8,6 +8,18 @@
     --filter-svg: hue-rotate(32deg) saturate(50%);
 }
 
+.footer-one.dark-bg .footer-nav .footer-nav-link a:hover {
+    color: var(--color-highlight);
+}
+
+.footer-one.dark-bg .footer-intro .email:hover {
+    color: var(--color-highlight);
+}
+
+.footer-one.dark-bg {
+    background: var(--bg-main);
+}
+
 .color_main {
     color: var(--bg-main);
 }
