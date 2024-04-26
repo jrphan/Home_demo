@@ -144,7 +144,7 @@
 }
 
 .hero-banner-two {
-    background-image: url("https://www.eaglecreekdental.ca/wp-content/uploads/2021/04/slider1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://www.eaglecreekdental.ca/wp-content/uploads/2021/04/slider1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
