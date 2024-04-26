@@ -37,7 +37,12 @@
 }
 
 .fancy-banner-four {
-    background: var(--bg-main);
+    /* background: var(--bg-main); */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images_custom/bg_smile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .custom_fs {
