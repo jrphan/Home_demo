@@ -51,15 +51,6 @@
 
 .fancy-banner-four {
     background: var(--bg-main);
-
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("../images_custom/bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 
@@ -189,7 +180,7 @@
 }
 
 .hero-banner-two {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images_custom/slider1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images_custom/slider1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
