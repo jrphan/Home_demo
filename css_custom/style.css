@@ -8,6 +8,10 @@
     --filter-svg: hue-rotate(32deg) saturate(50%);
 }
 
+.color_main {
+    color: var(--bg-main);
+}
+
 .footer-one.dark-bg .footer-intro .email {
     font-size: 25px;
 }
@@ -22,6 +26,10 @@
 
 .font-garamond.custom_fs {
     color: var(--text-light);
+}
+
+.font-garamond.custom_fs span {
+    color: var(--color-highlight);
 }
 
 .feedback-section-two {
@@ -83,8 +91,22 @@
     color: var(--color-highlight);
 }
 
+.feedback-block-three blockquote {
+    font-size: 25px;
+    margin: 30px 0;
+    padding-bottom: 40px
+}
+
+.feedback-section-three .bg-line .shape_02 {
+    max-width: 15%;
+}
+
+.feedback-section-three .feedback-bg-wrapper {
+    padding-bottom: 20px
+}
+
 .feedback-section-three .feedback-bg-wrapper:before {
-    background: var(--color-highlight);
+    display: none;
 }
 
 .feedback-section-three .feedback-bg-wrapper .icon {
@@ -277,17 +299,13 @@
 
 
 .dentist_img_custom {
-    width: 100% !important;
-    max-width: 60% !important;
-    left: -100px !important;
+    width: 28% !important;
+    max-width: 28% !important;
+    left: 150px !important;
+    display: block;
 }
 
 @media (max-width: 575px) {
-
-    .dentist_img_custom {
-        display: none;
-    }
-
     .feedback-block-two blockquote {
         font-size: 25px;
         line-height: 1.3em;
@@ -315,7 +333,16 @@
     }
 }
 
+
 @media screen and (max-width: 991px) {
+    .custom_fs {
+        font-size: 45px !important;
+    }
+
+    .dentist_img_custom {
+        display: none;
+    }
+
     .navbar .navbar-nav .nav-link {
         color: var(--text-dark);
     }
