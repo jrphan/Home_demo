@@ -44,18 +44,24 @@
     color: var(--color-highlight);
 }
 
+
 .feedback-section-two {
     background: var(--bg-main);
 }
 
 .fancy-banner-four {
-    /* background: var(--bg-main); */
+    background: var(--bg-main);
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images_custom/bg_smile.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("../images_custom/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
 }
+
 
 .custom_fs {
     font-size: 55px !important;
@@ -314,18 +320,49 @@
     display: none;
 }
 
+.content_custom {
+}
+
+.content_flex {
+    display: flex !important;
+    width: 100%;
+    gap: 40px;
+}
+
+.content_flex  img {
+    flex: 1;
+    width: 50%;
+    height: auto:
+    object-fit: content;
+}
+
+.content_flex  .content_custom {
+    flex: 1;
+    width: 50%;
+}
 
 .dentist_img_custom {
-    width: 28% !important;
-    max-width: 28% !important;
-    left: 150px !important;
     display: block;
 }
 
 @media (max-width: 575px) {
-    .dentist_img_custom {
-        display: none !important;
+
+    .row_accordion {
+        padding: 0 20px;
     }
+
+    .content_flex {
+        flex-direction: column-reverse;
+    }
+
+    .content_flex  img {
+        width: 100%;
+    }
+    
+    .content_flex  .content_custom {
+        width: 100%;
+    }
+    
 
     .feedback-block-two blockquote {
         font-size: 25px;
@@ -356,13 +393,23 @@
 
 
 @media screen and (max-width: 991px) {
+
+    .content_flex {
+        flex-direction: column-reverse;
+    }
+
+    .content_flex  img {
+        width: 100%;
+    }
+    
+    .content_flex  .content_custom {
+        width: 100%;
+    }
+    
     .custom_fs {
         font-size: 45px !important;
     }
 
-    .dentist_img_custom {
-        display: none !important;
-    }
 
     .navbar .navbar-nav .nav-link {
         color: var(--text-dark);
